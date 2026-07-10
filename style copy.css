@@ -45,7 +45,7 @@ select {
 
 /* COMMON STYLES */
 .nav-register-btn {
-  padding: 12px 44px;
+  padding: 12px 12px;
   border-radius: 10px;
   background-color: var(--accent);
   color: var(--white);
@@ -75,24 +75,17 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 25px 0;
-  position: relative; /* anchor for centering the links */
 }
 
 .navbar a img {
   width: 100%;
 }
 
-/* NAV LINKS */
 .nav-links {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 24px;
-
-  /* True centering, independent of logo/button widths */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  gap: 30px;
 }
 
 .nav-links a {
@@ -106,13 +99,42 @@ nav {
   position: relative;
 }
 
-/* Hover color (applies to all links) */
-.nav-links a:hover {
+/* First nav link — different font, color, and permanent underline */
+.nav-links a.active {
+  font-family: "Inter", sans-serif;
   color: var(--accent-active);
 }
 
-/* Group Selector - Permanent underline for first nav link & all other links */
-.nav-links li:first-child a::after,
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 50%;
+  height: 2px;
+  background: var(--accent-active);
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Hover + active state color (applies to all links) */
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--accent-active);
+}
+
+/* If another link is hovered, remove active style temporarily */
+.nav-links:hover a.active:not(:hover)::after {
+  background: transparent;
+  transform: scaleX(0);
+}
+
+.nav-links:hover a.active:not(:hover) {
+  background: transparent;
+  color: var(--dark);
+}
+
+/* Underline animation on hover — for all links except first-child (already has permanent underline) */
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -121,35 +143,26 @@ nav {
   width: 50%;
   height: 2px;
   background: var(--accent-active);
+  transform: scaleX(0);
   transform-origin: left;
   transition: 0.3s;
-}
-
-/* First nav link - different font, color, and permanent underline */
-.nav-links li:first-child a {
-  font-family: "Inter", sans-serif;
-  color: var(--accent-active);
-}
-
-.nav-links li:first-child a::after {
-  transform: scaleX(1);
-}
-
-/* When ANY other link is hovered, make first-child's color & underline transparent */
-.nav-links:hover li:first-child a:not(:hover) {
-  color: var(--dark);
-}
-
-.nav-links:hover li:first-child a:not(:hover)::after {
-  background: transparent;
-  transform: scaleX(0);
-}
-
-/* Underline animation on hover — for all links except first-child (already has permanent underline) */
-.nav-links a::after {
-  transform: scaleX(0);
 }
 
 .nav-links a:hover::after {
   transform: scaleX(1);
 }
+
+/* .nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 1.5px;
+  background: var(--accent-active);
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+} */
