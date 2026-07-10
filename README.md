@@ -17,7 +17,7 @@ A fully responsive, single-page website for a fictional developer conference, "D
 - Footer — logo, social icons, divider, copyright
 
 ## 🎯 Assignment
-Programming Hero - AI-Driven Full Stack Web Engineering
+Programming Hero - AI-Driven Full Stack Web Engineering Course   
 Assignment 01 · Milestone 01 · Module 06
 
 ## 🚀 Live Demo
