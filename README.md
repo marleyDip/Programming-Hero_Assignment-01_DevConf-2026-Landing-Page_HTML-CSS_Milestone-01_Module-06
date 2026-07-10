@@ -21,6 +21,6 @@ Programming Hero - AI-Driven Full Stack Web Engineering Course
 Assignment 01 · Milestone 01 · Module 06
 
 ## 🚀 Live Demo
-
+https://marleydip.github.io/Programming-Hero_Assignment-01_DevConf-2026-Landing-Page_HTML-CSS_Milestone-01_Module-06/
 
 ## 📸 Preview
