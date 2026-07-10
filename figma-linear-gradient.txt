@@ -1,0 +1,36 @@
+The three columns, explained
+For each "stop" (a point along the gradient), you have:
+
+=> Position (e.g. 42%) — where along the gradient line this color sits, from 0% (start of the gradient) to 100% (end of the gradient).
+=> Color swatch + hex (e.g. 000000) — what color this stop is. In your case it's always black.
+=> Opacity (e.g. 0% or 88%) — how transparent that black is at this exact stop. 0% = fully see-through (invisible), 100% = fully solid black.
+
+The gradient smoothly blends between whatever stops you've placed — so between two stops, both the color and the opacity fade gradually from one value to the next.
+
+Image 1 — reading it
+Stop 1: 42%  →  black, 0% opacity   (fully transparent)
+Stop 2: 87%  →  black, 88% opacity  (almost solid black)
+
+This means:
+=> From 0% to 42% of the gradient → fully transparent (nothing changes before the first stop — it just holds the first stop's value)
+=> From 42% to 87% → fades smoothly from invisible → almost-solid black
+=> From 87% to 100% → stays at 88% opaque black (holds the last stop's value)
+
+Visual effect: the left/top side of whatever this gradient sits on is clear, and it gradually darkens into black toward the right/bottom side. Classic "dark overlay fading in" — commonly used behind hero image text so text on one side is readable while the rest of the image stays visible.
+
+Image 2 — reading it
+Stop 1: 30%  →  black, 60% opacity  (fairly dark)
+Stop 2: 70%  →  black, 0% opacity   (fully transparent)
+
+This is the reverse direction of Image 1:
+=> From 0% to 30% → holds at 60% opaque black
+=> From 30% to 70% → fades from dark → fully transparent
+=> From 70% to 100% → stays fully transparent
+
+Visual effect: dark on the left/top, fading out to clear by the middle, and staying clear the rest of the way. This is the mirror image of your first gradient.
+Why this matters practically
+
+These two gradients look like a matched pair — likely meant to be layered on opposite sides of an image (e.g. Image 1 as a left-to-right overlay, Image 2 as a right-to-left overlay), which is a common technique for hero banners where you want dark, readable text zones on both edges of a photo while keeping the center clear.
+
+Quick way to "read" any gradient stop panel going forward
+        "Position = where. Hex = what color. % next to hex = how visible/solid that color is at that exact point".
