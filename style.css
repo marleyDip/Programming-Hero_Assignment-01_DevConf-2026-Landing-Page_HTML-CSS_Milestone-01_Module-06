@@ -716,3 +716,174 @@ header {
     flex-wrap: wrap;
   }
 }
+
+/* ===========================
+   Developer Networking Hub
+=========================== */
+.networking {
+  padding: 80px 0;
+  /* background: #f8fafc; */
+}
+
+.networking-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 56px;
+}
+
+.networking-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.networking-header p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+/* Cards */
+.networking-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+
+.network-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 32px;
+  transition: 0.3s;
+}
+
+.network-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #2563eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.network-card h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.network-card span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 16px;
+}
+
+.network-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+/* Statistics */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+
+.stat {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 20px;
+  border: 1px solid #e5e7eb;
+}
+
+.stat h3 {
+  font-size: 36px;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.stat p {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+/* .stat h3 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .networking-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .networking-header h2 {
+    font-size: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .networking {
+    padding: 60px 0;
+  }
+
+  .networking-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .networking-header {
+    margin-bottom: 40px;
+  }
+
+  .networking-header h2 {
+    font-size: 32px;
+  }
+
+  .network-card,
+  .stat {
+    padding: 24px;
+  }
+
+  .icon {
+    width: 56px;
+    height: 56px;
+    font-size: 26px;
+  }
+}

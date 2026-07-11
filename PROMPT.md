@@ -33,11 +33,39 @@ I need **one original section** that fits naturally between the **Pricing** and 
 - Use **semantic HTML5** and **modern CSS only**.
 - Use **Flexbox** or **CSS Grid** where appropriate.
 - Include realistic content instead of placeholder text.
-- Ensure the section is responsive for desktop, tablet, and mobile.
-- Keep the HTML and CSS clean, well-structured, and beginner-friendly.
 
 ## Output Format
 
 1. Briefly explain why you chose this section.
-2. Provide the complete HTML.
-3. Provide the complete CSS.
+
+## Selected AI Section ( Choose a Developer Networking Hub section design suggest by AI )
+
+### The section should include
+
+- Create a centered section heading titled Developer Networking Hub with a short descriptive subtitle.
+- Add a responsive three-column CSS Grid layout containing the following cards:
+  1. Developer Meetup
+  2. Career Lounge
+  3. Founder Circle
+- Each card should include:
+  - A relevant icon
+  - A title
+  - A highlighted statistic (e.g., 2,000+ Developers)
+  - A short, realistic description
+- Below the cards, create a responsive statistics row containing:
+  - 2,000+ Developers
+  - 120+ Recruiters
+  - 50+ Startups
+  - 15 Networking Events
+- Use a modern, minimal design with:
+  - Rounded corners
+  - Subtle box shadows
+  - Blue accent colors
+  - Smooth hover effects
+  - Consistent spacing and typography
+- Keep the **HTML semantic** and the **CSS** clean, well-structured, and easy to understand.
+- Ensure the layout is fully responsive for desktop, tablet, and mobile devices.
+
+## Output
+
+1. Provide the complete HTML and CSS for the section.
