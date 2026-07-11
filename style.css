@@ -98,7 +98,7 @@ nav {
   width: 100%;
 }
 
-/* NAV LINKS */
+/* Nav Links */
 .nav-links {
   display: flex;
   align-items: center;
@@ -271,13 +271,15 @@ header {
   max-width: 830px;
 }
 
+/* MAIN CONTENT */
+
 /* MEET THE SPEAKERS SECTION */
 .speakers {
   padding: 80px 0;
 }
 
 /* Heading */
-.section-title {
+.speaker-title {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -330,7 +332,6 @@ header {
 } */
 
 /* .speaker-card span { */
-
 .track {
   display: inline-block;
   text-transform: uppercase;
@@ -361,7 +362,6 @@ header {
 }
 
 /* Tablet */
-
 @media (max-width: 992px) {
   .section-title {
     font-size: 40px;
@@ -377,7 +377,6 @@ header {
 }
 
 /* Mobile */
-
 @media (max-width: 768px) {
   .speaker-grid {
     grid-template-columns: 1fr;
@@ -391,5 +390,230 @@ header {
   .speaker-card img {
     height: 280px;
     object-fit: fill;
+  }
+}
+
+/* PRICING SECTION */
+.pricing {
+  padding: 40px 0;
+}
+
+/* Heading */
+.pricing-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+
+.pricing-subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 48px;
+  color: var(--gray);
+}
+
+/* 3 Column Grid Layout */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  justify-content: center;
+  gap: 24px;
+}
+
+/* Card */
+.pricing-card {
+  background: var(--white);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+  transition: 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+#team {
+  background: #f8f9fb;
+}
+
+/* Featured Card */
+.featured {
+  background: #0d1b2a;
+  border: 1px solid #0d1b2a;
+  transform: scale(1.05);
+}
+
+/* Text */
+.pricing-card span,
+.pricing-card.featured span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.46;
+  letter-spacing: 0.3px;
+  color: #888888;
+  margin-bottom: 8px;
+}
+.pricing-card span,
+.pricing-card p {
+  color: #888888;
+}
+
+.pricing-card.featured span {
+  color: #93c5fd;
+}
+
+.pricing-card h3,
+.pricing-card.featured h3 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.pricing-card h3 {
+  color: var(--dark);
+}
+
+.pricing-card.featured h3 {
+  color: var(--white);
+}
+
+.pricing-card p,
+.pricing-card.featured p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.46;
+  /* margin-bottom: 20px; */
+}
+
+.pricing-card.featured p {
+  color: var(--white);
+  opacity: 0.5;
+}
+
+/* .divider,
+.featured-divider {
+  margin-top: 20px;
+} */
+
+.divider {
+  color: #e5e7eb;
+  margin-top: 20px;
+}
+
+.featured-divider {
+  color: var(--white);
+  opacity: 0.1;
+}
+
+/* Features */
+.pricing-card ul {
+  list-style: disc;
+  padding: 20px;
+}
+
+.pricing-card li,
+.pricing-card.featured li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.pricing-card li {
+  color: #333333;
+}
+
+.pricing-card.featured li {
+  color: var(--white);
+  opacity: 0.8;
+}
+
+.pricing-card li::marker {
+  color: var(--accent-hover);
+}
+
+.pricing-card.featured li::marker {
+  color: #60a5fa;
+}
+
+/* Common Buttons */
+.btn-outline,
+.btn-primary,
+.team-btn-outline {
+  /* display: block; */
+  /* text-align: center; */
+  padding: 11px 0;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-outline:hover,
+.btn-primary:hover,
+.team-btn-outline:hover {
+  transform: scale(1.01) translateY(3px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: transparent;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: var(--white);
+  border: none;
+  outline: none;
+}
+
+.team-btn-outline {
+  border: 1px solid var(--dark);
+  color: var(--dark);
+  background: transparent;
+}
+
+/* .featured .btn-primary {
+  background: #2563eb;
+  color: var(--white);
+} */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .pricing-grid {
+    grid-template-columns: repeat(2, 370px);
+  }
+
+  .featured {
+    transform: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 40px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
   }
 }
