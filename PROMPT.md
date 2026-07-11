@@ -35,10 +35,9 @@ I need **one original section** that fits naturally between the **Pricing** and 
 - Include realistic content instead of placeholder text.
 
 ## Output Format
-
 1. Briefly explain why you chose this section.
 
-## Selected AI Section ( Choose a Developer Networking Hub section design suggest by AI )
+## Selected AI Section ( Choose a Developer Networking Hub section design suggested by AI )
 
 ### The section should include
 
@@ -67,5 +66,4 @@ I need **one original section** that fits naturally between the **Pricing** and 
 - Ensure the layout is fully responsive for desktop, tablet, and mobile devices.
 
 ## Output
-
 1. Provide the complete HTML and CSS for the section.
