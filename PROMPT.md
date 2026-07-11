@@ -36,7 +36,7 @@ I need **one original section** that fits naturally between the **Pricing** and 
 
 ## Output Format
 
-- Briefly explain why you chose this section.
+1. Briefly explain why you chose this section.
 
 ## Selected AI Section ( Choose a Developer Networking Hub section design suggested by AI )
 
@@ -58,7 +58,7 @@ I need **one original section** that fits naturally between the **Pricing** and 
   - 50+ Startups
   - 15 Networking Events
 - Use a modern, minimal design with:
-  -- Rounded corners
+  - Rounded corners
   - Subtle box shadows
   - Blue accent colors
   - Smooth hover effects
@@ -68,4 +68,4 @@ I need **one original section** that fits naturally between the **Pricing** and 
 
 ## Output
 
-- Provide the complete HTML and CSS for the section.
+1. Provide the complete HTML and CSS for the section.
