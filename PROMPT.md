@@ -1,6 +1,6 @@
 # AI Prompt for Additional Section
 
-I am building a modern conference website called **DEVCONF 2026** using **HTML5 and CSS3 only** (no Bootstrap, Tailwind, or JavaScript frameworks).
+I am building a modern conference website called ***DEVCONF 2026*** using **HTML5 and CSS3 only** (no Bootstrap, Tailwind, or JavaScript frameworks).
 
 ## Existing Sections
 
@@ -31,14 +31,26 @@ I need **one original section** that fits naturally between the **Pricing** and 
   - Generous spacing
   - Blue accent colors
 - Use **semantic HTML5** and **modern CSS only**.
-- Use **Flexbox** or **CSS Grid** where appropriate.
+- Use ***Flexbox*** or ***CSS Grid*** where appropriate.
 - Include realistic content instead of placeholder text.
 
 ## Output Format
 
 1. Briefly explain why you chose this section.
 
-## Selected AI Section ( Choose a Developer Networking Hub section design suggested by AI )
+## Selected AI Section ( Strongly choose a Developer Networking Hub section suggested by AI )
+
+### Here are some creative sections that are more unique than the common ones (Sponsors, FAQ, Newsletter, Venue) and would fit DEVCONF 2026 very well - Innovation Showcase, Conference Passport, AI Networking Match, Build Your Conference Journey, Dev Challenge Arena, Global Community, Conference Companion App, Startup Pitch Stage, Skill Paths, Attendee Perks
+
+## Why it fits well
+
+- It's directly related to a tech conference.
+- It's not one of the common sections the assignment advises against.
+- It adds value by highlighting a key reason people attend conferences: networking.
+- It fits naturally after the Pricing section ("Buy your ticket → See the networking opportunities you'll get").
+- It allows for an attractive card-based layout using CSS Grid.
+
+** A possible layout Design
 
 ### The section should include
 
