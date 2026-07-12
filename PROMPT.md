@@ -44,13 +44,15 @@ I need **one original section** that fits naturally between the **Pricing** and 
 
 ## Why it fits well
 
-* It's directly related to a tech conference.
-+ It's not one of the common sections the assignment advises against.
+- It's directly related to a tech conference.
+- It's not one of the common sections the assignment advises against.
 - It adds value by highlighting a key reason people attend conferences: networking.
 - It fits naturally after the Pricing section ("Buy your ticket → See the networking opportunities you'll get").
 - It allows for an attractive card-based layout using CSS Grid.
 
-** A possible layout Design
+## A possible layout Design
+
+<img width="617" height="395" alt="Screenshot 2026-07-12 160202" src="https://github.com/user-attachments/assets/87794f45-eef6-4f36-b6ff-24daf3cd26ee" />
 
 ### The section should include
 
@@ -75,7 +77,7 @@ I need **one original section** that fits naturally between the **Pricing** and 
   - Blue accent colors
   - Smooth hover effects
   - Consistent spacing and typography
-- Keep the **HTML semantic** and the **CSS** clean, well-structured, and easy to understand.
+- Keep the ***HTML semantic*** and the ***CSS*** clean, well-structured, and easy to understand.
 - Ensure the layout is fully responsive for desktop, tablet, and mobile devices.
 
 ## Output
