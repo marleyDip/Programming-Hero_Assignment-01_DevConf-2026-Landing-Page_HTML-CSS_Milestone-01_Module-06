@@ -40,7 +40,7 @@ I need **one original section** that fits naturally between the **Pricing** and 
 
 ## Selected AI Section ( Strongly choose a Developer Networking Hub section suggested by AI )
 
-### Here are some creative sections that are more unique than the common ones (Sponsors, FAQ, Newsletter, Venue) and would fit DEVCONF 2026 very well - Innovation Showcase, Conference Passport, AI Networking Match, Build Your Conference Journey, Dev Challenge Arena, Global Community, Conference Companion App, Startup Pitch Stage, Skill Paths, Attendee Perks
+#### Here are some creative sections that are more unique than the common ones (Sponsors, FAQ, Newsletter, Venue) and would fit DEVCONF 2026 very well - Innovation Showcase, Conference Passport, AI Networking Match, Build Your Conference Journey, Dev Challenge Arena, Global Community, Conference Companion App, Startup Pitch Stage, Skill Paths, Attendee Perks
 
 ## Why it fits well
 
