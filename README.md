@@ -13,7 +13,7 @@ A fully responsive, single-page website for a fictional developer conference, "D
 - Hero/Banner — full-width background with overlay, animated heading
 - Meet the Speakers — 2x2 responsive card grid
 - Pricing (Secure Your Spot) — 3-tier pricing cards with a highlighted plan
-- [Your custom AI-assisted section] — e.g. FAQ / Hackathon Details / Sponsors
+- Developer Networking Hub - 3-tier cards with Developer Meetup, Career Lounge, Founder Circle
 - Footer — logo, social icons, divider, copyright
 
 ## 🎯 Assignment
