@@ -78,44 +78,52 @@
             <article class="speaker-card">
               <img src="./assets/andrej.png" alt="Andrej Karpathy" />
 
-              <span class="track">AI / ML</span>
+              <div class="speaker-card-desc">
+                <span class="track">AI / ML</span>
 
-              <h3>Andrej Karpathy</h3>
+                <h3>Andrej Karpathy</h3>
 
-              <p>Pretraining team, Anthropic</p>
+                <p>Pretraining team, Anthropic</p>
+              </div>
             </article>
 
             <!-- Speaker Card 2 -->
             <article class="speaker-card">
               <img src="./assets/demis.png" alt="Demis Hassabis" />
 
-              <span class="track">Cloud & DevOps</span>
+              <div class="speaker-card-desc">
+                <span class="track">Cloud & DevOps</span>
 
-              <h3>Demis Hassabis</h3>
+                <h3>Demis Hassabis</h3>
 
-              <p>Co-Founder and CEO, Google DeepMind</p>
+                <p>Co-Founder and CEO, Google DeepMind</p>
+              </div>
             </article>
 
             <!-- Speaker Card 3 -->
             <article class="speaker-card">
               <img src="./assets/gary.png" alt="Gary Marcus" />
 
-              <span class="track">Frontend</span>
+              <div class="speaker-card-desc">
+                <span class="track">Frontend</span>
 
-              <h3>Gary Marcus</h3>
+                <h3>Gary Marcus</h3>
 
-              <p>Staff Engineer, Vercel</p>
+                <p>Staff Engineer, Vercel</p>
+              </div>
             </article>
 
             <!-- Speaker Card 4 -->
             <article class="speaker-card">
               <img src="./assets/mustafa.png" alt="Mustafa Suleyman" />
 
-              <span class="track">Security</span>
+              <div class="speaker-card-desc">
+                <span class="track">Security</span>
 
-              <h3>Mustafa Suleyman</h3>
+                <h3>Mustafa Suleyman</h3>
 
-              <p>CEO of Microsoft AI</p>
+                <p>CEO of Microsoft AI</p>
+              </div>
             </article>
           </div>
         </div>
@@ -197,7 +205,124 @@
         </div>
       </section>
 
-      <section class="networking">
+      <!-- Claude - Developer Networking Hub Section -->
+      <section class="networking" aria-labelledby="networking-title">
+        <div class="networking__container">
+          <div class="networking__header">
+            <span class="networking__eyebrow">Networking Hub</span>
+            <h2 class="networking__title" id="networking-title">
+              Where developers actually connect
+            </h2>
+            <p class="networking__subtitle">
+              Talks end, conversations don't have to. Three dedicated spaces
+              built for meeting people who get what you build.
+            </p>
+          </div>
+
+          <!-- Three Column Cards -->
+          <div class="networking__cards">
+            <!-- Developer Meetup -->
+            <article class="hub-card">
+              <div class="hub-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h3 class="hub-card__title">Developer Meetup</h3>
+              <span class="hub-card__stat">2,000+ Developers</span>
+              <p class="hub-card__desc">
+                Open floor sessions where engineers trade notes on real
+                projects, swap GitHub handles, and form the kind of connections
+                that outlast the conference badge.
+              </p>
+            </article>
+
+            <!-- Career Lounge -->
+            <article class="hub-card">
+              <div class="hub-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+              <h3 class="hub-card__title">Career Lounge</h3>
+              <span class="hub-card__stat">120+ Recruiters</span>
+              <p class="hub-card__desc">
+                A relaxed space to talk openly with recruiters and hiring
+                managers from companies actively building — no booths, no
+                pressure, just real conversations.
+              </p>
+            </article>
+
+            <!-- Founder Circle -->
+            <article class="hub-card">
+              <div class="hub-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" />
+                </svg>
+              </div>
+              <h3 class="hub-card__title">Founder Circle</h3>
+              <span class="hub-card__stat">50+ Startups</span>
+              <p class="hub-card__desc">
+                Founders and early engineers share what's actually working — and
+                what isn't — over closed-door roundtables designed for candid,
+                off-stage discussion.
+              </p>
+            </article>
+          </div>
+
+          <!-- Stats Row -->
+          <div class="networking__stats">
+            <!-- Stats 1 -->
+            <div class="stat">
+              <span class="stat__number">2,000+</span>
+              <span class="stat__label">Developers</span>
+            </div>
+
+            <!-- Stats 2 -->
+            <div class="stat">
+              <span class="stat__number">120+</span>
+              <span class="stat__label">Recruiters</span>
+            </div>
+
+            <!-- Stats 3 -->
+            <div class="stat">
+              <span class="stat__number">50+</span>
+              <span class="stat__label">Startups</span>
+            </div>
+
+            <!-- Stats 4 -->
+            <div class="stat">
+              <span class="stat__number">15</span>
+              <span class="stat__label">Networking Events</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ChatGPT Suggested Section  -->
+      <!-- <section class="networking">
         <div class="container">
           <div class="networking-header">
             <h2>Developer Networking Hub</h2>
@@ -249,28 +374,28 @@
           </div>
 
           <div class="stats-grid">
-            <div class="stat">
+            <div class="stats">
               <h3>2,000+</h3>
               <p>Developers</p>
             </div>
 
-            <div class="stat">
+            <div class="stats">
               <h3>120+</h3>
               <p>Recruiters</p>
             </div>
 
-            <div class="stat">
+            <div class="stats">
               <h3>50+</h3>
               <p>Startups</p>
             </div>
 
-            <div class="stat">
+            <div class="stats">
               <h3>15</h3>
               <p>Networking Events</p>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Footer -->
       <footer class="footer">
