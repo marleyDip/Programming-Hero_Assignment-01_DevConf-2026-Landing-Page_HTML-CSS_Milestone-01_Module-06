@@ -24,3 +24,5 @@ Assignment 01 · Milestone 01 · Module 06
 https://marleydip.github.io/Programming-Hero_Assignment-01_DevConf-2026-Landing-Page_HTML-CSS_Milestone-01_Module-06/
 
 ## 📸 Preview
+
+<img width="1920" height="4953" alt="screencapture-marleydip-github-io-Programming-Hero-Assignment-01-DevConf-2026-Landing-Page-HTML-CSS-Milestone-01-Module-06-2026-07-13-10_55_15" src="https://github.com/user-attachments/assets/4a150883-0020-4c9c-a201-9fc893fb60d4" />
